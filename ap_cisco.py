@@ -8,7 +8,7 @@ import csv
 from progressbar import ProgressBar, Percentage, ETA, ReverseBar, RotatingMarker, Timer
 
 zapi = ZabbixAPI("http://127.0.0.1/zabbix")
-zapi.login(user="Admin", password="!@nhaca123")
+zapi.login(user="user", password="passwd")
 
 arq = csv.reader(open('/tmp/hosts.csv'))
 
